@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  more_info: false 
   
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -15,8 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in the department of [Operations Research and Financial Engineering](https://orfe.princeton.edu) under the supervision of Professor Ronnie Sircar. Currently, I am a visiting student at the [Aggregate Confusion Project](https://orfe.princeton.edu) at MIT Sloan School of Mangement, hosted by Professor Roberto Rigobon. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies at the intersection of engineering and **sustainable finance**. In detail, I am focusing on the failure of Environmental, Social and Governance (ESG) scores due to missing data.
+My objective is to drive positive change in the financial industry, and to efficiently redirect capital towards responsible investing practices that benefit both society and the environment.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I hold a double M.Sc. degree at the [University of North Carolina at Charlotte](https://www.charlotte.edu) and at [Universita' Cattolica del Sacro Cuore](https://www.charlotte.edu), in Mathematical Finance and Banking and Finance respectively. I also hold a bachelor degree in Economics for Banks from [Universita' degli Studi di Milano-Bicocca](https://en.unimib.it). I
+originally come from Bernareggio, a small town in **Italy**. Before starting my PhD I have worked as an Assistant Portfolio Manager in Luxembourg.
