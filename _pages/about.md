@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate at <a href='#'>Princdeton University</a>. 
+subtitle: PhD Candidate at <a href='#'>Princeton University</a>. 
 
 profile:
   align: right
