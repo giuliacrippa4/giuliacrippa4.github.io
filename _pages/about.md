@@ -6,8 +6,8 @@ subtitle: PhD Candidate at <a href='#'>Princdeton University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: giulia_pic.jpg
+  image_circular: true # crops the image to make it circular
   more_info: false 
   
 news: false # includes a list of news items
