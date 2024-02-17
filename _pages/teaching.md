@@ -2,20 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description: During my academic career I have taught the following courses 
 nav: true
 nav_order: 6
 ---
 
-During my academic career I have taught the following courses: 
+**Full lecturer**\
 
-Full lecturer
-**2024** 
-Foundations in climate change and sustainability | *SKEMA Business School*
+<a href='#'>2024</a>\
+Foundations in climate change and sustainability | *SKEMA Business School*\
 
-TA positions
-**2023**
-ORF 455: Energy and Commodities Markets | *Princeton University*
-**2019-2020**
-STAT 4123: Applied Statistics I | *UNC Charlotte*
-STAT 1220: Elements of Statistics I (BUSN) | *UNC Charlotte*
+**Teaching Assistant**\
+
+<a href='#'>2023</a>\
+ORF 455: Energy and Commodities Markets | *Princeton University*\
+
+<a href='#'>2019-2020</a>\
+STAT 4123: Applied Statistics I | *UNC Charlotte*\
+STAT 1220: Elements of Statistics I (BUSN) | *UNC Charlotte*\
