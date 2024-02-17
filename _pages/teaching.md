@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+During my academic career I have taught the following courses: 
 
-Organize your courses by years, topics, or universities, however you like!
+Full lecturer
+**2024** 
+Foundations in climate change and sustainability | *SKEMA Business School*
+
+TA positions
+**2023**
+ORF 455: Energy and Commodities Markets | *Princeton University*
+**2019-2020**
+STAT 4123: Applied Statistics I | *UNC Charlotte*
+STAT 1220: Elements of Statistics I (BUSN) | *UNC Charlotte*
