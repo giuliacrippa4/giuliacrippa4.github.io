@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: cv
 permalink: /cv/
 title: cv
 nav: true
-newtab: true
-nav_order: 5
-redirect_to: /assets/pdf/example_pdf.pdf
+nav_order: 4
+cv_pdf: Resume_GC_0224.pdf
 ---
