@@ -8,7 +8,6 @@ profile:
   align: right
   image: giulia_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: false 
   
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
