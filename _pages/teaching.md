@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: During my academic career I have taught the following courses 
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 **Full lecturer**
