@@ -9,7 +9,7 @@ nav_order: 6
 
 **Full lecturer**
 
-<a href='#'>2024</a>
+<a href='#'>2024</a>\
 Foundations in climate change and sustainability | *SKEMA Business School*
 
 **Teaching Assistant**
