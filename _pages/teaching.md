@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: During my academic career I have taught the following courses 
+description: 
 nav: true
 nav_order: 4
 ---
 
-**Full lecturer**
+**Lecturer**
 
 <a href='#'>2024</a>\
 Foundations in climate change and sustainability | *SKEMA Business School*
