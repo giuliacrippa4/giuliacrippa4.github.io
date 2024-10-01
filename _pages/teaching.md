@@ -14,7 +14,7 @@ Foundations in climate change and sustainability | *SKEMA Business School*
 
 **Teaching Assistant**
 
-<a href='#'>2023</a>\
+<a href='#'>Fall 2023,2024</a>\
 ORF 455: Energy and Commodities Markets | *Princeton University*
 
 <a href='#'>2019-2020</a>\
