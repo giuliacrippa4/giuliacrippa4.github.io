@@ -21,5 +21,5 @@ Last year, I was a visiting student at the [Aggregate Confusion Project](https:/
 My research interest lies at the intersection of engineering and **sustainable finance**. In detail, I am focusing on the failure of Environmental, Social and Governance (ESG) scores due to missing data.
 My objective is to drive positive change in the financial industry, and to efficiently redirect capital towards responsible investing practices that benefit both society and the environment.
 
-I hold a double M.Sc. degree at the [University of North Carolina at Charlotte](https://www.charlotte.edu) and at [Universita' Cattolica del Sacro Cuore](https://www.charlotte.edu), in Mathematical Finance and Banking and Finance respectively. I also hold a bachelor degree in Economics for Banks from [Universita' degli Studi di Milano-Bicocca](https://en.unimib.it). I
-originally come from Bernareggio, a small town in **Italy**. Before starting my PhD I have worked as an Assistant Portfolio Manager in Luxembourg.
+I hold a double M.Sc. degree at the [University of North Carolina at Charlotte](https://www.charlotte.edu) and at [Universita' Cattolica del Sacro Cuore](https://www.unicatt.it), in Mathematical Finance and Banking and Finance respectively. I also hold a bachelor degree in Economics for Banks from [Universita' degli Studi di Milano-Bicocca](https://en.unimib.it). I
+originally come from Bernareggio, a small town in **Italy**. 
