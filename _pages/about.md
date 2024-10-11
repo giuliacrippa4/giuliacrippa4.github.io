@@ -15,7 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the department of [Operations Research and Financial Engineering](https://orfe.princeton.edu) under the supervision of Professor Ronnie Sircar. Currently, I am a visiting student at the [Aggregate Confusion Project](https://orfe.princeton.edu) at MIT Sloan School of Mangement, hosted by Professor Roberto Rigobon. 
+I am a PhD candidate in the department of [Operations Research and Financial Engineering](https://orfe.princeton.edu) under the supervision of Professor Ronnie Sircar. 
+Last year, I was a visiting student at the [Aggregate Confusion Project](https://mitsloan.mit.edu/sustainability-initiative/aggregate-confusion-project) at MIT Sloan School of Mangement, hosted by Professor Roberto Rigobon. 
 
 My research interest lies at the intersection of engineering and **sustainable finance**. In detail, I am focusing on the failure of Environmental, Social and Governance (ESG) scores due to missing data.
 My objective is to drive positive change in the financial industry, and to efficiently redirect capital towards responsible investing practices that benefit both society and the environment.
