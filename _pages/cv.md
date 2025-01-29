@@ -1,9 +1,8 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: assets/pdf/Resume_GC_0125.pdf
 title: cv
 nav: true
+newtab: true
 nav_order: 5
-redirect-to: assets/pdf/Resume_GC_092024.pdf
-# cv_pdf: Resume_GC_0224.pdf
 ---
