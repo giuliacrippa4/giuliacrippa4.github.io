@@ -13,3 +13,9 @@ nav_order: 2
 2. *Reinforcement Learning Paycheck Optimization for Multivariate Financial Goals*, Nov. 2022\
    M. Alaluf, **G. Crippa**, S. Geng, Z. Jing, N. Krishnan, S. Kulkarni, W. Navarro, J. Tang. Risk & Decision Analysis\
    [[link]](https://sircar.princeton.edu/sites/g/files/toruqf5981/files/documents/paycheck_final.pdf)
+
+\
+Working Papers
+1. *ESG mutual funds: Marketing or Impact?*, Jan. 2025. Joint with M. Gasparini
+2. *Rationalising preferences through multi-objective optimization: application to the MV-ESG efficient frontier*
+3. *Non-ignorable missing data imputation: the case of sustainability metrics*
