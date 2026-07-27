@@ -124,19 +124,17 @@ main {
   order: 2;              /* image sits to the right of the text */
 }
 .hero__photo img {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
+  width: 230px;
+  height: auto;          /* transparent portrait cutout — no crop */
   display: block;
 }
 @media (max-width: 620px) {
   .hero {
     flex-direction: column-reverse;  /* photo on top, then text, on mobile */
     align-items: flex-start;
-    gap: 28px;
+    gap: 20px;
   }
-  .hero__photo img { width: 150px; height: 150px; }
+  .hero__photo img { width: 170px; }
 }
 .hero h1 {
   font-family: var(--serif);
