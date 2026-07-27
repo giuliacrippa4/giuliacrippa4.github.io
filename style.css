@@ -304,6 +304,22 @@ main {
   color: var(--ink-faint);
   font-size: .85rem;
 }
+.site-footer__logo {
+  display: inline-block;
+  border: none;
+  margin-bottom: 16px;
+}
+.site-footer__logo img {
+  width: 168px;
+  height: auto;
+  display: block;
+}
+.site-footer__logo .logo--dark { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  .site-footer__logo .logo--light { display: none; }
+  .site-footer__logo .logo--dark  { display: block; }
+}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
