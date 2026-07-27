@@ -101,8 +101,15 @@ main {
   padding: 0 24px;
 }
 .section {
-  padding: 56px 0;
+  padding: 30px 0;
   border-top: 1px solid var(--line);
+}
+/* Research & Teaching already end in a hairline from their last row,
+   so drop the redundant divider on the sections that follow them */
+#teaching,
+#contact {
+  border-top: none;
+  padding-top: 0;
 }
 .section__title {
   font-family: var(--serif);
