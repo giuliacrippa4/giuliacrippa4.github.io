@@ -184,7 +184,6 @@ main {
   font-size: 1.28rem;
   line-height: 1.5;
   color: var(--ink);
-  max-width: 40ch;
   margin: 0 0 30px;
 }
 .hero__links {
