@@ -104,13 +104,6 @@ main {
   padding: 30px 0;
   border-top: 1px solid var(--line);
 }
-/* Research & Teaching already end in a hairline from their last row,
-   so drop the redundant divider on the sections that follow them */
-#teaching,
-#contact {
-  border-top: none;
-  padding-top: 0;
-}
 .section__title {
   font-family: var(--serif);
   font-size: 1.05rem;
@@ -236,11 +229,27 @@ main {
   list-style: none;
   padding: 0;
   margin: 0;
-  counter-reset: none;
 }
 .pub {
-  padding: 20px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+
+/* Continuous numbering across the article lists (not Work in Progress) */
+#research { counter-reset: pub; }
+.pubs--numbered > .pub {
+  counter-increment: pub;
+  position: relative;
+  padding-left: 2rem;
+}
+.pubs--numbered > .pub::before {
+  content: counter(pub) ".";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  font-family: var(--serif);
+  font-size: 1.16rem;
+  font-weight: 500;
+  color: var(--ink-faint);
 }
 .pub__title {
   font-family: var(--serif);
@@ -280,7 +289,9 @@ main {
   font-size: 1.18rem;
   font-weight: 500;
   color: var(--ink);
-  margin: 0 0 12px;
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
   display: flex;
   align-items: baseline;
   gap: 12px;
@@ -296,12 +307,10 @@ main {
 }
 .courses { list-style: none; padding: 0; margin: 0; }
 .courses li {
-  padding: 9px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 5px 0;
   color: var(--ink-soft);
   font-size: .98rem;
 }
-.courses li:first-child { border-top: 1px solid var(--line); }
 .courses__code {
   font-family: var(--sans);
   font-weight: 600;
