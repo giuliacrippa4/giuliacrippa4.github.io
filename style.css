@@ -1,0 +1,292 @@
+/* ============================================================
+   Giulia Crippa — personal site
+   Minimal / clean academic portfolio
+   ============================================================ */
+
+:root {
+  --ink:        #1a1a1a;
+  --ink-soft:   #4a4a4a;
+  --ink-faint:  #8a8a8a;
+  --line:       #e6e4df;
+  --bg:         #fbfaf7;
+  --bg-card:    #ffffff;
+  --accent:     #6b4f2a;   /* warm, understated academic brown */
+  --accent-ink: #4a3417;
+  --max:        720px;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink:        #ececea;
+    --ink-soft:   #b8b6b1;
+    --ink-faint:  #86847f;
+    --line:       #2c2a27;
+    --bg:         #171614;
+    --bg-card:    #1e1d1a;
+    --accent:     #cba56b;
+    --accent-ink: #e0c48f;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .15s ease, color .15s ease;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+/* ---------- Header / nav ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.nav {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.nav__name {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ink);
+  border: none;
+}
+.nav__name:hover { color: var(--accent); }
+.nav__links {
+  display: flex;
+  gap: 22px;
+  font-size: .92rem;
+}
+.nav__links a {
+  color: var(--ink-soft);
+  border: none;
+}
+.nav__links a:hover { color: var(--accent); }
+
+/* ---------- Layout ---------- */
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.section {
+  padding: 56px 0;
+  border-top: 1px solid var(--line);
+}
+.section__title {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 28px;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  padding: 80px 0 64px;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.6rem, 7vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  margin: 0 0 18px;
+}
+.hero__role {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  margin: 0 0 24px;
+  line-height: 1.55;
+}
+.hero__blurb {
+  font-family: var(--serif);
+  font-size: 1.28rem;
+  line-height: 1.5;
+  color: var(--ink);
+  max-width: 40ch;
+  margin: 0 0 30px;
+}
+.hero__links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: .96rem;
+}
+.hero__links span { color: var(--ink-faint); }
+
+/* ---------- Prose ---------- */
+.prose p { color: var(--ink-soft); margin: 0 0 18px; }
+.prose p:last-child { margin-bottom: 0; }
+.prose__subhead {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 32px 0 14px;
+}
+.prose__aside {
+  font-size: .95rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.facts { list-style: none; padding: 0; margin: 0 0 18px; }
+.facts li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.facts li:first-child { border-top: 1px solid var(--line); }
+.facts__what { display: block; color: var(--ink); font-weight: 500; }
+.facts__where { display: block; color: var(--ink-faint); font-size: .92rem; margin-top: 2px; }
+
+/* ---------- Publications ---------- */
+.group__label {
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 36px 0 4px;
+}
+.group__label:first-of-type { margin-top: 0; }
+
+.pubs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: none;
+}
+.pub {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub__title {
+  font-family: var(--serif);
+  font-size: 1.16rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+.pub__meta {
+  font-size: .92rem;
+  color: var(--ink-faint);
+  margin: 0 0 4px;
+}
+.pub__venue {
+  font-size: .96rem;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.pub__venue--muted { color: var(--ink-faint); font-style: italic; }
+.pub__links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: .9rem;
+  margin: 0;
+}
+.pub__links span[aria-hidden] { color: var(--ink-faint); }
+.pub__note { color: var(--ink-faint); }
+
+/* ---------- Teaching ---------- */
+.teach { margin-bottom: 34px; }
+.teach:last-child { margin-bottom: 0; }
+.teach__inst {
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 12px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.teach__role {
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.courses { list-style: none; padding: 0; margin: 0; }
+.courses li {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: .98rem;
+}
+.courses li:first-child { border-top: 1px solid var(--line); }
+.courses__code {
+  font-family: var(--sans);
+  font-weight: 600;
+  color: var(--ink);
+  margin-right: 4px;
+}
+.courses__meta { color: var(--ink-faint); font-size: .88rem; }
+.courses__term { color: var(--ink-faint); font-size: .86rem; white-space: nowrap; }
+.teach__award {
+  font-size: .92rem;
+  color: var(--accent-ink);
+  margin: 12px 0 0;
+  font-style: italic;
+}
+
+/* ---------- Contact / footer ---------- */
+.section--contact .prose p { color: var(--ink-soft); line-height: 1.8; }
+.site-footer {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+  border-top: 1px solid var(--line);
+  color: var(--ink-faint);
+  font-size: .85rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .hero { padding: 48px 0 40px; }
+  .section { padding: 44px 0; }
+  .courses__term { display: block; margin-top: 2px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
