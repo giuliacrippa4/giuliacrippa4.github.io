@@ -122,11 +122,16 @@ main {
 .hero__photo {
   flex: 0 0 auto;
   order: 2;              /* image sits to the right of the text */
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg-card);
 }
 .hero__photo img {
   width: 230px;
   height: auto;          /* transparent portrait cutout — no crop */
   display: block;
+  border-radius: 4px;
 }
 @media (max-width: 620px) {
   .hero {
