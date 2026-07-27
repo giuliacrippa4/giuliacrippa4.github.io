@@ -5,28 +5,28 @@
 
 :root {
   --ink:        #1a1a1a;
-  --ink-soft:   #4a4a4a;
+  --ink-soft:   #454545;
   --ink-faint:  #8a8a8a;
-  --line:       #e6e4df;
-  --bg:         #fbfaf7;
+  --line:       #e8e8e8;
+  --bg:         #ffffff;
   --bg-card:    #ffffff;
-  --accent:     #6b4f2a;   /* warm, understated academic brown */
-  --accent-ink: #4a3417;
-  --max:        720px;
+  --accent:     #b31b1b;   /* Cornell red */
+  --accent-ink: #8a1515;
+  --max:        880px;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ink:        #ececea;
-    --ink-soft:   #b8b6b1;
-    --ink-faint:  #86847f;
-    --line:       #2c2a27;
-    --bg:         #171614;
-    --bg-card:    #1e1d1a;
-    --accent:     #cba56b;
-    --accent-ink: #e0c48f;
+    --ink:        #ededed;
+    --ink-soft:   #b6b6b6;
+    --ink-faint:  #858585;
+    --line:       #2a2a2a;
+    --bg:         #141414;
+    --bg-card:    #1c1c1c;
+    --accent:     #e05a5a;
+    --accent-ink: #ef7a7a;
   }
 }
 
