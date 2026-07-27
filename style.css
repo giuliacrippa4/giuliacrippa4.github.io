@@ -141,13 +141,27 @@ main {
   }
   .hero__photo img { width: 170px; }
 }
+.hero__namerow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 18px;
+}
+.hero__emblem { flex: 0 0 auto; display: inline-flex; }
+.hero__emblem img {
+  width: clamp(44px, 9vw, 60px);
+  height: auto;
+  display: block;
+}
+.hero__emblem .logo--dark { display: none; }
+
 .hero h1 {
   font-family: var(--serif);
   font-size: clamp(2.6rem, 7vw, 3.6rem);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.015em;
-  margin: 0 0 18px;
+  margin: 0;
 }
 .hero__role {
   font-size: 1.05rem;
@@ -304,21 +318,9 @@ main {
   color: var(--ink-faint);
   font-size: .85rem;
 }
-.site-footer__logo {
-  display: inline-block;
-  border: none;
-  margin-bottom: 16px;
-}
-.site-footer__logo img {
-  width: 168px;
-  height: auto;
-  display: block;
-}
-.site-footer__logo .logo--dark { display: none; }
-
 @media (prefers-color-scheme: dark) {
-  .site-footer__logo .logo--light { display: none; }
-  .site-footer__logo .logo--dark  { display: block; }
+  .hero__emblem .logo--light { display: none; }
+  .hero__emblem .logo--dark  { display: block; }
 }
 
 /* ---------- Responsive ---------- */
