@@ -114,6 +114,29 @@ main {
 /* ---------- Hero ---------- */
 .hero {
   padding: 80px 0 64px;
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+}
+.hero__text { flex: 1 1 auto; min-width: 0; }
+.hero__photo {
+  flex: 0 0 auto;
+  order: 2;              /* image sits to the right of the text */
+}
+.hero__photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+@media (max-width: 620px) {
+  .hero {
+    flex-direction: column-reverse;  /* photo on top, then text, on mobile */
+    align-items: flex-start;
+    gap: 28px;
+  }
+  .hero__photo img { width: 150px; height: 150px; }
 }
 .hero h1 {
   font-family: var(--serif);
