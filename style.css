@@ -327,7 +327,7 @@ main {
 }
 
 /* ---------- Contact / footer ---------- */
-.section--contact .prose p { color: var(--ink-soft); line-height: 1.8; }
+.section--contact .prose p { color: var(--ink-soft); line-height: 1.7; font-size: .85rem; }
 .site-footer {
   max-width: var(--max);
   margin: 0 auto;
