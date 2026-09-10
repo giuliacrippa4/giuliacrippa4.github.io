@@ -34,7 +34,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 13px;   /* global type scale — lower this to shrink everything */
+  font-size: 15px;   /* global type scale — lower this to shrink everything */
 }
 
 body {
@@ -42,8 +42,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 1.05rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -77,7 +77,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 .nav__name {
   font-family: var(--serif);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--ink);
   border: none;
@@ -86,7 +86,7 @@ a:hover { border-bottom-color: var(--accent); }
 .nav__links {
   display: flex;
   gap: 22px;
-  font-size: .92rem;
+  font-size: .9rem;
 }
 .nav__links a {
   color: var(--ink-soft);
@@ -106,7 +106,7 @@ main {
 }
 .section__title {
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: .95rem;
   font-weight: 500;
   letter-spacing: .04em;
   text-transform: uppercase;
@@ -128,7 +128,7 @@ main {
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: var(--bg-card);
+  background: #ffffff;   /* always white: the headshot is a transparent cutout */
 }
 .hero__photo img {
   width: 230px;
@@ -152,7 +152,7 @@ main {
 }
 .hero__emblem { flex: 0 0 auto; display: inline-flex; }
 .hero__emblem img {
-  width: clamp(2.4rem, 7vw, 3.3rem);   /* rem-based so it scales with the type */
+  width: clamp(2rem, 5vw, 2.6rem);   /* rem-based so it scales with the type */
   height: auto;
   display: block;
 }
@@ -160,14 +160,14 @@ main {
 
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(2.6rem, 7vw, 3.6rem);
+  font-size: clamp(2.2rem, 5.5vw, 2.7rem);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.015em;
   margin: 0;
 }
 .hero__role {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--ink-soft);
   margin: 0 0 24px;
   line-height: 1.55;
@@ -184,7 +184,7 @@ main {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  font-size: .96rem;
+  font-size: .95rem;
 }
 .hero__links span { color: var(--ink-faint); }
 
@@ -216,7 +216,7 @@ main {
 /* ---------- Publications ---------- */
 .group__label {
   font-family: var(--sans);
-  font-size: .82rem;
+  font-size: .8rem;
   font-weight: 600;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -247,25 +247,25 @@ main {
   left: 0;
   top: 12px;
   font-family: var(--serif);
-  font-size: 1.16rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--ink-faint);
 }
 .pub__title {
   font-family: var(--serif);
-  font-size: 1.16rem;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--ink);
   margin: 0 0 6px;
 }
 .pub__meta {
-  font-size: .92rem;
+  font-size: .9rem;
   color: var(--ink-faint);
   margin: 0 0 4px;
 }
 .pub__venue {
-  font-size: .96rem;
+  font-size: .95rem;
   color: var(--ink-soft);
   margin: 0 0 8px;
 }
@@ -286,7 +286,7 @@ main {
 .teach:last-child { margin-bottom: 0; }
 .teach__inst {
   font-family: var(--serif);
-  font-size: 1.18rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--ink);
   margin: 0 0 10px;
@@ -299,7 +299,7 @@ main {
 }
 .teach__role {
   font-family: var(--sans);
-  font-size: .72rem;
+  font-size: .8rem;
   font-weight: 600;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -309,7 +309,7 @@ main {
 .courses li {
   padding: 5px 0;
   color: var(--ink-soft);
-  font-size: .98rem;
+  font-size: .95rem;
 }
 .courses__code {
   font-family: var(--sans);
@@ -317,17 +317,17 @@ main {
   color: var(--ink);
   margin-right: 4px;
 }
-.courses__meta { color: var(--ink-faint); font-size: .88rem; }
-.courses__term { color: var(--ink-faint); font-size: .86rem; white-space: nowrap; }
+.courses__meta { color: var(--ink-faint); font-size: .85rem; }
+.courses__term { color: var(--ink-faint); font-size: .85rem; white-space: nowrap; }
 .teach__award {
-  font-size: .92rem;
+  font-size: .9rem;
   color: var(--accent-ink);
   margin: 12px 0 0;
   font-style: italic;
 }
 
 /* ---------- Contact / footer ---------- */
-.section--contact .prose p { color: var(--ink-soft); line-height: 1.7; font-size: .85rem; }
+.section--contact .prose p { color: var(--ink-soft); line-height: 1.7; font-size: .95rem; }
 .site-footer {
   max-width: var(--max);
   margin: 0 auto;
@@ -343,7 +343,7 @@ main {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
-  body { font-size: 16px; }
+  html { font-size: 15px; }
   .hero { padding: 48px 0 40px; }
   .section { padding: 44px 0; }
   .courses__term { display: block; margin-top: 2px; }
