@@ -308,6 +308,8 @@ main {
   padding: 5px 0;
   color: var(--ink-soft);
   font-size: .95rem;
+}
+.courses li:has(> .courses__left) {
   display: flex;               /* title left, program and term flush right */
   justify-content: space-between;
   align-items: baseline;
@@ -349,7 +351,7 @@ main {
   html { font-size: 15px; }
   .hero { padding: 32px 0 24px; }
   .section { padding: 22px 0; }
-  .courses li { flex-direction: column; gap: 0; }
+  .courses li:has(> .courses__left) { flex-direction: column; gap: 0; }
   .courses__right { text-align: left; white-space: normal; }
 }
 
