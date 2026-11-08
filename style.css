@@ -129,14 +129,10 @@ main {
 .hero__photo {
   flex: 0 0 auto;
   order: 2;              /* image sits to the right of the text */
-  padding: 6px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: #ffffff;   /* always white: the headshot is a transparent cutout */
 }
 .hero__photo img {
-  width: 105px;
-  height: 105px;         /* square crop of the portrait, face kept at the top */
+  width: 170px;
+  height: 170px;         /* square crop of the portrait, face kept at the top */
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -148,7 +144,7 @@ main {
     align-items: flex-start;
     gap: 20px;
   }
-  .hero__photo img { width: 105px; height: 105px; }
+  .hero__photo img { width: 140px; height: 140px; }
 }
 .hero__namerow {
   display: flex;
