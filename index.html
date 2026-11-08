@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Giulia Crippa — Cornell University</title>
-  <meta name="description" content="Giulia Crippa is an Atkinson Postdoctoral Fellow in the Finance Area of the Dyson School, SC Johnson College of Business, Cornell University. Research at the intersection of engineering, finance, and sustainability — ESG data, disclosure, and asset valuation." />
+  <meta name="description" content="Giulia Crippa is an Atkinson Postdoctoral Fellow in the Finance Area of the Dyson School, SC Johnson College of Business, Cornell University. Research at the intersection of engineering and finance: disclosure, missing data, and AI in financial markets." />
   <meta name="author" content="Giulia Crippa" />
   <link rel="canonical" href="https://giuliacrippa4.github.io/" />
   <meta name="robots" content="index, follow" />
@@ -14,7 +14,7 @@
   <!-- Open Graph / social preview -->
   <meta property="og:type" content="profile" />
   <meta property="og:title" content="Giulia Crippa — Finance &amp; Sustainability Research, Cornell University" />
-  <meta property="og:description" content="Atkinson Postdoctoral Fellow, Dyson School / SC Johnson College of Business, Cornell University. Research on ESG data, disclosure, and asset valuation." />
+  <meta property="og:description" content="Atkinson Postdoctoral Fellow, Dyson School / SC Johnson College of Business, Cornell University. Research on disclosure, missing data, and AI in financial markets." />
   <meta property="og:url" content="https://giuliacrippa4.github.io/" />
   <meta property="og:image" content="https://giuliacrippa4.github.io/headshot.png" />
   <meta name="twitter:card" content="summary" />
@@ -42,7 +42,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -52,8 +52,7 @@
       <div class="nav__links">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#contact">Contact</a>
+        <a href="teaching.html">Teaching</a>
       </div>
     </nav>
   </header>
@@ -62,7 +61,7 @@
     <!-- ===================== HERO ===================== -->
     <section class="hero">
       <div class="hero__photo">
-        <img src="headshot.png" alt="Giulia Crippa" width="105" height="165" />
+        <img src="headshot.png" alt="Giulia Crippa" width="105" height="105" />
       </div>
       <div class="hero__text">
         <div class="hero__namerow">
@@ -76,13 +75,10 @@
           Atkinson Postdoctoral Fellow, Finance Area<br />
           SC Johnson College of Business, Cornell University <br />
           Dyson School of Applied Economics &amp; Management 
-        <!-- </p>
-        <p class="hero__blurb">
-          I work at the intersection of engineering and finance, studying how
-          investors interpret incomplete information &mdash; and how disclosure
-          constraints shape asset valuations and corporate behavior. -->
         </p>
         <div class="hero__links">
+          <a href="mailto:gcrippa@cornell.edu">gcrippa@cornell.edu</a>
+          <span aria-hidden="true">&middot;</span>
           <a href="https://drive.google.com/file/d/1TalsliKLNNBBS5yVxz884HKaevZ1jcLD/view" target="_blank" rel="noopener">CV</a>
           <span aria-hidden="true">&middot;</span>
           <a href="https://www.linkedin.com/in/giulia-crippa-906666159" target="_blank" rel="noopener">LinkedIn</a>
@@ -105,11 +101,10 @@
           MIT Sloan School of Management, hosted by Professor Roberto Rigobon.
         </p>
         <p>
-          My research bridges engineering and finance, focusing on efficient
-          allocation in non-pecuniary portfolios and strategically missing
-          environmental data. I study how investors interpret incomplete
-          information and the role of disclosure constraints in influencing
-          asset valuations and company actions.
+          My research bridges engineering and finance. I study informational
+          frictions in markets: what firms leave out of their disclosures, how
+          missing data gets filled in, and how AI is changing the way investors
+          read information.
         </p>
       </div>
     </section>
@@ -118,105 +113,52 @@
     <section id="research" class="section">
       <h2 class="section__title">Research</h2>
 
-      <h3 class="group__label">Publications</h3>
+      <h3 class="group__label">Disclosure and Missing Data</h3>
       <ol class="pubs pubs--numbered">
         <li class="pub">
           <p class="pub__title">Environmental, Social and Governance (ESG) Data Imputation and Greenwashing</p>
-          <p class="pub__meta">G. Crippa</p>
+          <p class="pub__meta">G. Crippa <span class="pub__links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4999731" target="_blank" rel="noopener">[link]</a></span></p>
           <p class="pub__venue"><em>The Journal of Impact and ESG Investing</em>, 5(4), 52&ndash;96 (2025).</p>
-          <p class="pub__links">
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4999731" target="_blank" rel="noopener">SSRN</a>
-            <span aria-hidden="true">&middot;</span>
-          </p>
         </li>
         <li class="pub">
-          <p class="pub__title">Reinforcement Learning Paycheck Optimization for Multivariate Financial Goals</p>
-          <p class="pub__meta">M. Alaluf, G. Crippa, S. Geng, Z. Jing, N. Krishnan, S. Kulkarni, W. Navarro, R. Sircar, J. Rang</p>
-          <p class="pub__venue"><em>Risk &amp; Decision Analysis</em> (2024).</p>
-          <p class="pub__links">
-            <a href="https://arxiv.org/abs/2403.06011" target="_blank" rel="noopener">arXiv</a>
-          </p>
+          <p class="pub__title">Corporate Omissions: Correcting the Bias in Carbon Reporting</p>
+          <p class="pub__meta">G. Crippa, F. Berg, R. Rigobon <span class="pub__links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5503418" target="_blank" rel="noopener">[link]</a></span></p>
+          <p class="pub__venue"><em>Working paper.</em></p>
+        </li>
+        <li class="pub">
+          <p class="pub__title">Endogenous Information Regimes</p>
+          <p class="pub__venue pub__venue--muted">Work in progress. Draft coming soon.</p>
         </li>
       </ol>
 
-      <h3 class="group__label">Working Papers</h3>
+      <h3 class="group__label">Machine Learning in Finance</h3>
       <ol class="pubs pubs--numbered">
         <li class="pub">
-          <p class="pub__title">Corporate Omissions: Correcting the Bias in Carbon Reporting</p>
-          <p class="pub__meta">G. Crippa, F. Berg, R. Rigobon</p>
-          <p class="pub__links">
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5503418" target="_blank" rel="noopener">SSRN</a>
-          </p>
-        </li>
-        <li class="pub">
-          <p class="pub__title">Machine Learning Reveals Intrinsic Determinants of siRNA Efficacy</p>
-          <p class="pub__meta">G. Crippa, C. Mandelli</p>
-          <p class="pub__links">
-            <a href="https://www.biorxiv.org/content/10.1101/2025.08.11.667724v1" target="_blank" rel="noopener">bioRxiv</a>
-          </p>
+          <p class="pub__title">Reinforcement Learning Paycheck Optimization for Multivariate Financial Goals</p>
+          <p class="pub__meta">M. Alaluf, G. Crippa, S. Geng, Z. Jing, N. Krishnan, S. Kulkarni, W. Navarro, R. Sircar, J. Rang <span class="pub__links"><a href="https://arxiv.org/abs/2403.06011" target="_blank" rel="noopener">[link]</a><a href="https://github.com/gengsinong/paycheck_optimization" target="_blank" rel="noopener">[code]</a></span></p>
+          <p class="pub__venue"><em>Risk &amp; Decision Analysis</em> (2024).</p>
         </li>
         <li class="pub">
           <p class="pub__title">Same Error, Different Function: The Optimizer as an Implicit Prior in Financial Time Series</p>
-          <p class="pub__meta">F. Cortesi, G. Crippa, G. Iannone, T. Poggio, P. Beneventano</p>
-          <p class="pub__links">
-            <a href="https://arxiv.org/abs/2603.02620" target="_blank" rel="noopener">arXiv</a>
-          </p>
+          <p class="pub__meta">F. Cortesi, G. Crippa, G. Iannone, T. Poggio, P. Beneventano <span class="pub__links"><a href="https://arxiv.org/abs/2603.02620" target="_blank" rel="noopener">[link]</a><a href="https://github.com/FedericoCortesi/finNN_code" target="_blank" rel="noopener">[code]</a></span></p>
+          <p class="pub__venue"><em>Working paper.</em></p>
         </li>
-      </ol>
-
-      <h3 class="group__label">Work in Progress</h3>
-      <ol class="pubs">
         <li class="pub">
-          <p class="pub__title">Endogenous Information Regimes</p>
-          <p class="pub__venue pub__venue--muted">Draft coming soon.</p>
+          <p class="pub__title">What Machines Make Salient: LLM Readers and Analyst Questions</p>
+          <p class="pub__venue pub__venue--muted">Work in progress.</p>
+        </li>
+      </ol>
+
+      <h3 class="group__label">Other Research</h3>
+      <ol class="pubs pubs--numbered">
+        <li class="pub">
+          <p class="pub__title">Machine Learning Reveals Intrinsic Determinants of siRNA Efficacy</p>
+          <p class="pub__meta">G. Crippa, C. Mandelli <span class="pub__links"><a href="https://www.biorxiv.org/content/10.1101/2025.08.11.667724v1" target="_blank" rel="noopener">[link]</a><a href="https://github.com/sathyasjali/siRNA_ML" target="_blank" rel="noopener">[code]</a></span></p>
+          <p class="pub__venue"><em>Working paper.</em></p>
         </li>
       </ol>
     </section>
 
-    <!-- ===================== TEACHING ===================== -->
-    <section id="teaching" class="section">
-      <h2 class="section__title">Teaching</h2>
-
-      <div class="teach">
-        <h3 class="teach__inst">Princeton University <span class="teach__role">Teaching Assistant</span></h3>
-        <ul class="courses">
-          <li><span class="courses__code">ORF 498</span> Senior Independent Research Foundations <span class="courses__term">Spring &amp; Fall 2025, 2026</span></li>
-          <li><span class="courses__code">ORF 455</span> Energy and Commodities Markets <span class="courses__term">Fall 2023, 2024</span></li>
-        </ul>
-        <p class="teach__award">Recipient of the <a href="https://www.princeton.edu/news/2025/05/15/ten-graduate-students-honored-outstanding-educators" target="_blank" rel="noopener">2025 Princeton Graduate School Teaching Award</a>.</p>
-      </div>
-
-      <div class="teach">
-        <h3 class="teach__inst">SKEMA Business School <span class="teach__role">Lecturer</span></h3>
-        <ul class="courses">
-          <li>Sustainable Finance and Impact Investment <span class="courses__meta">MSc Financial Markets &amp; Investments</span> <span class="courses__term">Spring 2026</span></li>
-          <li>Risk, Opportunities and Investments in the Era of Climate Change <span class="courses__meta">MSc Strategic Management &amp; Consulting</span> <span class="courses__term">Spring 2026</span></li>
-          <li>Foundations in Climate Change and Sustainability <span class="courses__meta">MSc Sustainable Finance &amp; Fintech</span> <span class="courses__term">Spring 2024</span></li>
-        </ul>
-      </div>
-
-      <div class="teach">
-        <h3 class="teach__inst">UNC Charlotte <span class="teach__role">Teaching Assistant</span></h3>
-        <ul class="courses">
-          <li><span class="courses__code">STAT 4123</span> Applied Statistics <span class="courses__term">Fall 2019, Spring 2020</span></li>
-          <li><span class="courses__code">STAT 1220</span> Elements of Statistics I (BUSN) <span class="courses__term">Spring 2020</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ===================== CONTACT ===================== -->
-    <section id="contact" class="section section--contact">
-      <h2 class="section__title">Contact</h2>
-      <div class="prose">
-        <p>
-          <!-- TODO: replace with your Cornell email if you have one -->
-          <a href="mailto:gcrippa@cornell.edu">gcrippa@cornell.edu</a><br />
-          Dyson School of Applied Economics &amp; Management<br />
-          SC Johnson College of Business, Cornell University<br />
-          Ithaca, NY
-        </p>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
