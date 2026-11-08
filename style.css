@@ -110,7 +110,7 @@ main {
 }
 .section__title {
   font-family: var(--serif);
-  font-size: .95rem;
+  font-size: 1.15rem;
   font-weight: 500;
   letter-spacing: .04em;
   text-transform: uppercase;
@@ -195,7 +195,7 @@ main {
 .hero__links span { color: var(--ink-faint); }
 
 /* ---------- Prose ---------- */
-.prose p { color: var(--ink-soft); margin: 0 0 18px; }
+.prose p { color: var(--ink-soft); font-size: .93rem; margin: 0 0 18px; }
 .prose p:last-child { margin-bottom: 0; }
 .prose__subhead {
   font-family: var(--serif);
@@ -222,7 +222,7 @@ main {
 /* ---------- Publications ---------- */
 .group__label {
   font-family: var(--sans);
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 600;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -259,7 +259,7 @@ main {
 }
 .pub__title {
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: .98rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--ink);
@@ -271,7 +271,7 @@ main {
   margin: 0 0 2px;
 }
 .pub__venue {
-  font-size: .95rem;
+  font-size: .9rem;
   color: var(--ink-soft);
   margin: 0;
 }
