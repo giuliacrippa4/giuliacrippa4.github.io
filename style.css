@@ -137,6 +137,7 @@ main {
   object-position: center top;
   display: block;
   border-radius: 4px;
+  background: #ececec;   /* plain light-grey backdrop behind the cutout, no frame */
 }
 @media (max-width: 620px) {
   .hero {
