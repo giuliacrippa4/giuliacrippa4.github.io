@@ -312,7 +312,12 @@ main {
   padding: 5px 0;
   color: var(--ink-soft);
   font-size: .95rem;
+  display: flex;               /* title left, program and term flush right */
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
 }
+.courses__right { text-align: right; white-space: nowrap; }
 .courses__code {
   font-family: var(--sans);
   font-weight: 600;
@@ -348,7 +353,8 @@ main {
   html { font-size: 15px; }
   .hero { padding: 32px 0 24px; }
   .section { padding: 22px 0; }
-  .courses__term { display: block; margin-top: 2px; }
+  .courses li { flex-direction: column; gap: 0; }
+  .courses__right { text-align: left; white-space: normal; }
 }
 
 @media (prefers-reduced-motion: reduce) {
